@@ -1,0 +1,148 @@
+# sd-tema3
+Tema_3_SD : Scinteie Sebastian Teodor 312CA, Antonescu Mihai Alexandru 313CA
+
+	Pentru implementarea acestei teme ne-am folosit de urmatoare clase 
+	si structuri:
+
+	-> Structura Rating :
+		- contine int-ul rating in care retinem rating -ul dat de un 
+		user unui film si string -ul id_user in care retinem id -ul 
+		userului care a dat rating- ul;
+
+	-> Structura Popular :
+		- contine int -ul nr_rating in care retinem cate rating uri a primit in 
+		film si string -ul id in care retinem id -ul filmului
+		- operatorul < , am implementat acest operator pentru ca avem nevoie sa
+		 sortam aceste structuri, acest operator sorteaza descrescator dupa
+		 nr_rating iar daca nr_rating sunt egale atuci sortam alfabetic dupa
+		 id ul filmelor;
+
+	-> Structura Partner :
+		- contine int -ul count care retine cu cati actori a colaborat 
+		actorul salvat in string -ul id;
+
+	-> Structura Pair :
+		- contine un string in care retinem o pereche de forma
+		actor_id_1 + actor_id_2 si un int count in care salvam de cate ori 
+		apare acea pereche int -un film;
+		- operatorul < , folosit pentru sortarea a doua obiecte , sortarea se 
+		face descrescator dupa count iar daca count -urile sunt egale atunci 
+		se sorteaza alfabetic dupa id;
+
+	-> Clasa Director :
+		- contine string -ul name in care se salveaza numele unui director ,
+		un vector actors in care se salveaza cu ce actori a lucrat directorul;
+		- metoda get imi returneaza numarul de actori cu care a lucrat 
+		director -ul respectiv
+		- metoda insert_name imi adauga numele unui director;
+
+	-> Clasa Movie :
+		- contine id = id -ul filmului, name = numele filmului, timestamp = 
+		 data cand a fost lansat filmul, vectorul categories = categoriile din
+		 care face parte filmul, director = numele directorului, vectorul 
+		 actors = actorii care au jucat in acel film, rating = vector de 
+		 structuri de tip Rating care contine rating -urileprimite de 
+		 acest film;
+		- metoda get_popularity() returneaza numarul de rating -uri primite 
+		 de film;
+		- metoda points() returneaza un string ce reprezinta rating -ul mediu 
+		 obtinut de film;
+		- metoda get_year() returneaza un int ce reprezinta timestamp -ul  
+		 convertit in int;
+
+		-> Clasa Actor :
+			-contine id = id -ul actorului, name = numele actorului, vectorul 
+			movie = filmele in care a jucat actorul respectiv, vectorul year =
+			anii in care a activat actorul, vectorul director = regizorii cu 
+			care a colaborat, vectorul colleagues = toti actorii cu care a 
+			mai colaborat in verun film;
+			- metoda get_career() returneaza un int ce reprezinta perioada de 
+			timp de la primul film in care a jucat pana la ultimul;
+
+		-> Structura User :
+			- contine id = id -ul user -ului, name = numele user -ului;
+
+		-> Clasa Treap ( + clasa TreapNode utilizata pentru implementare 
+			Treap -ului, ne -am bazat pe modelul prezentat la curs)
+			-> TreapNode :
+				- metoda inset_info , insereaza un nod nou primind index -ul 
+				si prioritatea , inserarea se face ca pentru index se face ca 
+				la un ABC comparand index -ul cu cel al nodului curent si se 
+				tine cont si de prioritate pentru ca dorim ca cea mai mica 
+				prioritate sa fie pe root -ul arborelui , iar cel mai mare 
+				index sa fie in stanga arborelui;
+				- metoda rotate_right() + rotate_left() , "invarte" arbore in 
+				spre stanga sau dreapta in functie de cum avem nevoie astfel 
+				in cat nodul cu prioritatea ce mai mica sa fie pe root;
+				-metoda push_up() + push_down() "impinge" un nod in sus sau 
+				in jos pe arbore astfel incat prioritatea nodului parinte sa 
+				fie mai mare ca prioritatea copilor;
+				- metoda find_info() imi cauta un element in arbore dupa index 
+				, returneaza daca a gasit sau nu nodul cautat;
+			*-* clasa Treap foloseste metodele din TreapNode pentru root;
+			 +  metoda top() + top_pairs() imi retuneaza un string cu toate 
+			  elementele arborelui sortate descrescator;
+			  + metoda final_top() imi returneaza un string cu un numar k 
+			   de elemente sortate descrescator;
+
+Implementarea functiilor pentru rezolvarea acestei teme si distributia 
+							muncii in echipa :
+	
+	!*!*!	Munca a fost facut de cele mai multe ori impreuna fiindca suntem 
+			colegi de camera si nu au existat dificultati de colaborare si 
+			pentru implementare fiecarei functii am depus un efort egal atat 
+			pentru scrierea si gandirea codului cat si pentru debugging.
+
+		- metoda add_movie : se creeaza un obiect de tip class Movie si se 
+		 populeaza cu datele de intrare corespunzatoare si se adauga intr -ul 
+		 hashtable (unordered_map) , pe langa asta se populeaza si 
+		 hashtable -ul (unordered_map) Actors cu datele obtinute despre 
+		 acestia din datele primite ca input de aceasta metoda, se mai adauga 
+		 si in hastable -ul (unordered_map) Pairs toate perechile de actori , 
+		 daca perechea nu exista este adaugata daca nu ii creste cu unu numarul
+		 de aparitii, se adauga si regizor -ul in hashtable -ul Director;
+		- metoda add_user() se adauga in hashtable -ul Users id -ul si numele 
+		 user -ului primit ca imput;
+		- metoda add_actor() se adauga in hashtable -ul Actors id -ul si numele
+		 actorului primit ca input;
+		- metoda add_rating() se adauga in hashtable -ul Movies in vectorul 
+		 rating componenta a unui element din acest hashtable id -ul user -ului
+		 si valoare rating -ului dat de acesta;
+		- metoda update_rating() se parcurege vectorul rating (componeta a unui
+		obiect de tip  class Movie) , pana cand se gaseste id -ul user -ului si
+		se modifica valoare rating -ului dat de acesta;
+		- metoda remove_rating() e parcurege vectorul rating (componeta a unui 
+		 obiect de tip  class Movie) , pana cand se gaseste id -ul user -ului 
+		 si se sterge acel element din vector;
+		- metoda get_rating() se apeleaza metoda points() din Movie pentru 
+		 id -ul filmului primit ca input si se returneaza valoarea returnata 
+		 de acea metoda;
+		- get_longest_career_actor() se returneaza componeta clasei IMDb 
+		 "longest_career_act" care este id ul acotrului cu cea mai lunga 
+		 activitate si se actualizeaza de fiecare data cand este adaugat un 
+		 film/actor;
+		- get_most_influent_director() se returneaza componenta calsei IMDb 
+		 "most_influent_dir" care este numele regizorului care a lucrat cu cei 
+		 mai multi actori, se actualizeaza de fiecare data cand este adaugat 
+		 un actor;
+		- metoda get_best_yar_for_category() am folosit un vector 
+		 caracteristic, parcurgem Movies si verificam ce filme fac parte din 
+		 aceasta categorie si obtinem rating -ul mediu pentru fiecare an, 
+		 dupa care facem un max pe vectorul de ani;
+		- metoda get_2nd_degree_colleagues() am folosit un Treap pentru a sorta
+		 atat dupa index cat si alfabetic, parcurgem hashtable -ul Actors si 
+		 inseram in treap fiecare actor de legatura a 2 a pentru actorul cu 
+		 id ul actor_id;
+		- metoda get_top_k_most_recent_movies() parcurgem hashtable -ul Movies 
+		 si adaugam intr -un treap perechea timestamp si id -ul unui film, 
+		 dupa care folosim metoda final_top a classei Treap;
+		- metoda get_top_k_partners_for_actor() parcurgem hashtable ul Parners 
+		 si adaugam in treap partenerul actorului si de cate ori au colaborat 
+		 dupa care apelam final_top();
+		- metoda get_to_k_most_popular_movies() sortam vectorul Popular in care
+		 avem salvat id -ul filmelor si numarul de rating -ul dupa care 
+		 returnam primele k pozitii din acesta;
+		- metoda get_avg_rating_in _range() ne folosim de un vector in care 
+		 salvam toti ani ani cuprinsi intre start si end dupa care facem 
+		 media intre toate rating urile pentru fiecare an care indeplineste 
+		 conditia si o returnam;
