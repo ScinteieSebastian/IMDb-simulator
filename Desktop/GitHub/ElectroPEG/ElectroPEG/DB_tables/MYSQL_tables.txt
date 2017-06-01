@@ -1,0 +1,79 @@
+CREATE TABLE users(
+    id int NOT NULL AUTO_INCREMENT,
+    userName varchar(30) NOT NULL,
+    userPass varchar(50) NOT NULL,
+    userType int NOT NULL,
+    PRIMARY KEY(id)
+    )
+	
+CREATE TABLE Teren(
+	id_teren int NOT NULL AUTO_INCREMENT,
+	locatie varchar(20) NOT NULL,
+	suprafata int NOT NULL,
+	chirie int NOT NULL,
+	PRIMARY KEY(id_teren)
+)	
+
+CREATE TABLE Eoliene(
+	id_centrala int NOT NULL AUTO_INCREMENT,
+	functionalitate BOOLEAN NOT NULL,
+	nivel_functionalitate int NOT NULL,
+	PRIMARY KEY(id_centrala)
+)
+
+CREATE TABLE Statie_acumulare(
+	id_statie int NOT NULL AUTO_INCREMENT,
+	client varchar(30) NOT NULL,
+	putere_stocata int NOT NULL,
+	PRIMARY KEY(id_statie)
+)
+
+CREATE TABLE Salariu(
+	id_salariu int NOT NULL AUTO_INCREMENT,
+	id_angajat int NOT NULL,
+	suma int NOT NULL,
+	data DATE NOT NULL,
+	PRIMARY KEY(id_salariu)
+)
+
+CREATE TABLE Angajati(
+	id_angajat int NOT NULL AUTO_INCREMENT,
+	functie varchar(30) NOT NULL,
+	nume varchar(30) NOT NULL,
+	prenume	 varchar(30) NOT NULL,
+	adresa varchar(50) NOT NULL,
+	data_nasterii DATE NOT NULL,
+	PRIMARY KEY(id_angajat)
+	)	
+
+CREATE TABLE Client(
+	id_client int NOT NULL AUTO_INCREMENT,
+	nume varchar(30) NOT NULL,
+	prenume varchar(30) NOT NULL,
+	adresa varchar(50) NOT NULL,
+	PRIMARY KEY(id_client)
+)
+
+CREATE TABLE Cheltuieli(
+	id_cheltuiala int NOT NULL AUTO_INCREMENT,
+	tip_cheltuiala varchar(30) NOT NULL,
+	data DATE NOT NULL,
+	suma int NOT NULL,
+	PRIMARY KEY(id_cheltuiala)
+)
+
+CREATE TABLE Venituri(
+	id_incasare int NOT NULL AUTO_INCREMENT,
+	suma_incasata int NOT NULL,
+	data_incasarii DATE NOT NULL,
+	PRIMARY KEY(id_incasare)
+)
+
+CREATE TABLE Achizitii(
+	id_achizitie int NOT NULL AUTO_INCREMENT,
+	nume_achizitie varchar(30) NOT NULL,
+	suma_achiztie int NOT NULL,
+	data_achizitie DATE NOT NULL,
+	PRIMARY KEY(id_achizitie)
+
+)

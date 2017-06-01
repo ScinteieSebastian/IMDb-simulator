@@ -1,0 +1,71 @@
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csprojResolveAssemblyReference.cache
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csproj.ResolveComReference.cache
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Insert_form.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._login_form.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._admin_cp.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._about_form.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csproj.GenerateResource.Cache
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.exe.config
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.exe
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.pdb
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\MySqlBackup.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\Microsoft.SqlServer.Types.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\de\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\es\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\fr\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\it\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ja\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ko\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\pt\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ru\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\zh-Hans\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\zh-Hant\Microsoft.SqlServer.Types.resources.dll
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._search_form.resources
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.exe
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.pdb
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.cache
+C:\Users\VICTOR\Desktop\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.exe.config
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.exe
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.pdb
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\MySqlBackup.dll
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csprojResolveAssemblyReference.cache
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csproj.ResolveComReference.cache
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Insert_form.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._login_form.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._admin_cp.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._about_form.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._search_form.resources
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csproj.GenerateResource.Cache
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.cache
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.exe
+C:\Users\VICTOR\Downloads\final_atestat\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.pdb
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.exe.config
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.exe
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\ElectroPEG.pdb
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\Microsoft.ReportViewer.WinForms.dll
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\MySql.Data.dll
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\bin\Debug\MySqlBackup.dll
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csprojResolveAssemblyReference.cache
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csproj.ResolveComReference.cache
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Insert_form.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._login_form.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._admin_cp.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Form3.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._about_form.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\WindowsFormsApplication1._search_form.resources
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.csproj.GenerateResource.Cache
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.cache
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\RdlCompile.compiled
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.exe
+C:\Users\VICTOR\Desktop\C# Projects\Atestat C# SQL 2016\final_atestat_with_reports\final_atestat\ElectroPEG\WindowsFormsApplication1\obj\x86\Debug\ElectroPEG.pdb
